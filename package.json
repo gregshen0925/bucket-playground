@@ -15,7 +15,7 @@
   "dependencies": {
     "@prisma/client": "^5.6.0",
     "@t3-oss/env-nextjs": "^0.7.1",
-    "bucket-protocol-sdk": "^0.6.0",
+    "bucket-protocol-sdk": "git+https://github.com/jwtradera/bucket-protocol-sdk.git#ab6b45aef9ed1d36064159ff9d1962b8d90a14a2",
     "next": "^14.0.3",
     "react": "18.2.0",
     "react-dom": "18.2.0",
