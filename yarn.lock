@@ -593,10 +593,9 @@ bs58@^5.0.0:
   dependencies:
     base-x "^4.0.0"
 
-bucket-protocol-sdk@^0.6.0:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/bucket-protocol-sdk/-/bucket-protocol-sdk-0.6.0.tgz#49ba420244b6859394f4e4952448e38ff1183b5f"
-  integrity sha512-n7I8kYxLRmwoc+y+3/Q3+i+vXCBPA+r+ipLYn0HT5NT7jlhHb/JvXUz+nYdLV5VVFJ7Xd2OpmgoSzSpz1MVKMA==
+"bucket-protocol-sdk@git+https://github.com/jwtradera/bucket-protocol-sdk.git#ab6b45aef9ed1d36064159ff9d1962b8d90a14a2":
+  version "0.6.1"
+  resolved "git+https://github.com/jwtradera/bucket-protocol-sdk.git#ab6b45aef9ed1d36064159ff9d1962b8d90a14a2"
   dependencies:
     "@mysten/bcs" "^0.9.0"
     "@mysten/sui.js" "^0.48.0"
